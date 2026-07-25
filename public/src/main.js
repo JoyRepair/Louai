@@ -8,7 +8,7 @@ function load_script(src, remote = true, transfer = []) {
   });
 }
 
-async function doJB() {
+async function doJb() {
   await load_script("src/misc.js");
 
   try {
@@ -114,7 +114,7 @@ async function doJB() {
 
       kernel_patches(kpatches_u8);
 
-      const bin_rsp = await fetch("src/goldhen.bin");
+      const bin_rsp = await fetch("src/payload.bin");
       const bin_buf = await bin_rsp.arrayBuffer();
       const bin_u8 = new Uint8Array(bin_buf);
 

@@ -11,10 +11,8 @@ src/loader.js
 src/main.js
 src/misc.js
 src/netctrl.js
-src/threads_old.js
 src/worker.js
 src/workers.js
-src/worker_backup.js
 src/ps4/constants.js
 src/ps4/kernel.js
 src/ps4/userland.js
